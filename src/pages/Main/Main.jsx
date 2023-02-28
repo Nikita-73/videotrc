@@ -12,10 +12,9 @@ const Main = () => {
 
     useEffect( () => {
         socket.on(ACTIONS.SHARE_ROOMS, ({rooms = []} = {}) => {
-            //if (rootNode.current) { не работает комнаты не показываются
-            updateRooms(rooms)
-         //      console.log(rooms)
-        //    }
+            //if (rootNode.current) {
+                updateRooms(rooms)
+            //}
         })
     }, [])
 

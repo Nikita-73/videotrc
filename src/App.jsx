@@ -1,6 +1,6 @@
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import Room from "./pages/Room/Room";
-import Main from "./pages/Main/Mane";
+import Main from "./pages/Main/Main";
 import NotFound404 from "./pages/NotFound404/NotFound404";
 
 
